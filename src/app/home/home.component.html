@@ -1,0 +1,10 @@
+<div class="card">
+  <carousel>
+    <ng-container *ngFor="let slide of slides">
+      <div class="carousel-cell">
+        <div class="box"></div>
+        <h2>{{slide.title}}</h2><br>
+        <span>{{slide.meta}}</span>
+      </div>
+    </ng-container>
+  </carousel>
